@@ -4,6 +4,10 @@
  * work well for content-centric websites.
  */
 
+body {
+  font-family: 'Fantasque Sans Mono';
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #203ab0;
@@ -22,3 +26,45 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  src: url('/font/FantasqueSansMono-Bold.woff2') format('woff2'),
+       url('/font/FantasqueSansMono-Bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+       url('/font/FantasqueSansMono-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  src: url('/font/FantasqueSansMono-BoldItalic.woff2') format('woff2'),
+       url('/font/FantasqueSansMono-BoldItalic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+       url('/font/FantasqueSansMono-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/font/FantasqueSansMono-BoldItalic.svg#FantasqueSansMono-BoldItalic') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  src: url('/font/FantasqueSansMono-Italic.woff2') format('woff2'),
+       url('/font/FantasqueSansMono-Italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+       url('/font/FantasqueSansMono-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/font/FantasqueSansMono-Italic.svg#FantasqueSansMono-Italic') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  src: url('/font/FantasqueSansMono-Regular.woff2') format('woff2'),
+       url('/font/FantasqueSansMono-Regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+       url('/font/FantasqueSansMono-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/font/FantasqueSansMono-Regular.svg#FantasqueSansMono-Regular') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
