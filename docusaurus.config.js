@@ -1,23 +1,23 @@
 module.exports = {
-  title: 'Eridanus',
+  title: 'Iridanus',
   tagline: 'A slow real time space strategy game',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'tschaul', // Usually your GitHub org/user name.
-  projectName: 'eridanus', // Usually your repo name.
+  projectName: 'iridanus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Eridanus',
+      title: 'Iridanus',
       logo: {
-        alt: 'Eridanus Logo',
+        alt: 'Iridanus Logo',
         src: 'img/logo.svg',
       },
       links: [
         {to: 'docs/doc1', label: 'Docs', position: 'left'},
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/tscahul/eridanus-server',
+          href: 'https://github.com/tscahul/iridanus-server',
           label: 'GitHub',
           position: 'right',
         },
@@ -48,12 +48,12 @@ module.exports = {
             // },
             {
               label: 'GitHub',
-              href: 'https://github.com/tschaul/eridanus-server',
+              href: 'https://github.com/tschaul/iridanus-server',
             }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Eridanus, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Iridanus, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -63,7 +63,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/tschaul/eridanus-docs/edit/master/',
+            'https://github.com/tschaul/iridanus-docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
