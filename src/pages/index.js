@@ -8,12 +8,38 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Explore new Worlds</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Send your fleets out towards uncharted territory and find new worlds full of opportunities.
+      </>
+    ),
+  },
+  {
+    title: <>Expand your Empire</>,
+    // imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    description: (
+      <>
+        Colonize new worlds to extend the reach of your civilization.
+      </>
+    ),
+  },
+  {
+    title: <>Exploit your Colonies</>,
+    // imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    description: (
+      <>
+        Gather the resources mined by your colonies back to your established world to produce more ships and industry.
+      </>
+    ),
+  },
+  {
+    title: <>Extinguish your Enemies</>,
+    // imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    description: (
+      <>
+        Send out fleets towards you enemies to conquer their world extending your reach even further.
       </>
     ),
   }
