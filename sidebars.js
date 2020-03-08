@@ -7,8 +7,46 @@
 
 module.exports = {
   someSidebar: {
-    Iridanus: ['intro','worlds','fleets'],
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    Overview: [
+      'overview/intro', 
+      'overview/worlds', 
+      'overview/fleets'
+    ],
+    Mechanics: [
+      'mechanics/population', 
+      'mechanics/mining', 
+      'mechanics/building', 
+      'mechanics/scrapping', 
+      'mechanics/cargo', 
+      'mechanics/warping', 
+      'mechanics/visibility', 
+      'mechanics/combat', 
+      'mechanics/capture', 
+      'mechanics/influence', 
+      'mechanics/victory'
+    ],
+    //Docusaurus: ['other/doc1', 'other/doc2', 'other/doc3'],
+    //Features: ['other/mdx'],
   },
 };
+
+/**
+ * Iridanus
+ *  - Overview
+ *    - Introduction
+ *    - Worlds
+ *    - Fleet
+ *    - Resources
+ *  - Mechanics
+ *    - Population
+ *    - Mining
+ *    - Building
+ *    - Scrapping
+ *    - Cargo
+ *    - Warping
+ *    - Visibility
+ *    - Combat
+ *    - Capture
+ *    - Influence and Upkeep
+ *    - Victory points
+ */
