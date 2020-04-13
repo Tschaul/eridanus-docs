@@ -18,6 +18,10 @@ body {
   --ifm-navbar-background-color: rgba(230, 230, 230, 0);
   --ifm-footer-background-color: rgba(230, 230, 230, 0);
 
+  --ifm-menu-color: rgba(230, 230, 230, 0.6);
+  --ifm-color-content-secondary:  rgba(230, 230, 230, 0.6);
+  --ifm-footer-link-color:  rgba(230, 230, 230, 0.6);
+
   --ifm-font-base-color: rgba(230, 230, 230, 1);
   --ifm-heading-color: rgba(230, 230, 230, 1);
 
@@ -30,6 +34,11 @@ body {
   --ifm-color-primary-lightest: #ffffff;
 
   --ifm-code-font-size: 95%;
+}
+
+.menu .menu__link.menu__link--sublist::after {
+  color:  rgba(230, 230, 230, 0.6) !important;
+  content: '⯆'; 
 }
 
 .pagination-nav .pagination-nav__link {
