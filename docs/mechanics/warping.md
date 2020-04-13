@@ -3,4 +3,4 @@ id: warping
 title: Warping between worlds
 ---
 
-Fleetkeys are ablte to warp between adjacent worlds. When warping fleetkeys take all their attached ships as well as their cargo with it. The warp itself akes 2.5 days. However when leaving from an world that is not you own it takes an additional delay of one day to leave the world. And when arriving at a world that is not your own it also takes an additional delay of one day. During both these delays you stay at the world (either where you leave or where you arrive) and are attackable by enemy fleets.
+Fleet keys are able to warp between adjacent worlds. When warping, fleet keys take all their attached ships as well as their cargo with it. The warp itself takes 2.5 days. However, when leaving or arriving a world that is not your own the departure or arrival is delayed by an additional day. During these delays the fleet located at this world and is attackable by enemy fleets.

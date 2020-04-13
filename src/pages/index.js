@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Explore new Worlds</>,
+    title: <>Explore new worlds</>,
     // imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -17,29 +17,29 @@ const features = [
     ),
   },
   {
-    title: <>Expand your Empire</>,
+    title: <>Expand your empire</>,
     // imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Colonize new worlds to extend the reach of your civilization.
+        Conquer new worlds to extend the reach of your civilization.
       </>
     ),
   },
   {
-    title: <>Exploit your Colonies</>,
+    title: <>Exploit your conquered worlds</>,
     // imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Gather the resources mined by your colonies back to your established world to produce more ships and industry.
+        Gather the resources mined by your conquered worlds to produce more ships and industry.
       </>
     ),
   },
   {
-    title: <>Extinguish your Enemies</>,
+    title: <>Extinguish your opponents</>,
     // imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Send out fleets towards your oponents to conquer their world extending your reach even further.
+        Battle your opponents to conquer their worlds extending your reach even further.
       </>
     ),
   }
