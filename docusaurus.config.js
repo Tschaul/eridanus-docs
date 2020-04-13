@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'tschaul', // Usually your GitHub org/user name.
   projectName: 'iridanus', // Usually your repo name.
   themeConfig: {
+    disableDarkMode: true,
     navbar: {
       title: 'Iridanus',
       logo: {
@@ -24,7 +25,6 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Docs',

@@ -6,22 +6,37 @@
 
 body {
   font-family: 'Fantasque Sans Mono';
+  background-image: url("/img/iridanus_stars.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #203ab0;
-  --ifm-color-primary-dark: #1d349e;
-  --ifm-color-primary-darker: #1b3196;
-  --ifm-color-primary-darkest: #16297b;
-  --ifm-color-primary-light: #2340c2;
-  --ifm-color-primary-lighter: #2543ca;
-  --ifm-color-primary-lightest: #3452da;
+  --ifm-contents-border-color: rgba(230, 230, 230, 0); 
+  --ifm-navbar-background-color: rgba(230, 230, 230, 0);
+  --ifm-footer-background-color: rgba(230, 230, 230, 0);
+
+  --ifm-font-base-color: rgba(230, 230, 230, 1);
+  --ifm-heading-color: rgba(230, 230, 230, 1);
+
+  --ifm-color-primary: #f6d995;
+  --ifm-color-primary-dark: #f3cc71;
+  --ifm-color-primary-darker: #f1c55e;
+  --ifm-color-primary-darkest: #edb228;
+  --ifm-color-primary-light: #f9e6b9;
+  --ifm-color-primary-lighter: #fbedcc;
+  --ifm-color-primary-lightest: #ffffff;
+
   --ifm-code-font-size: 95%;
 }
 
+.pagination-nav .pagination-nav__link {
+  border-style: none !important;
+}
+
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);

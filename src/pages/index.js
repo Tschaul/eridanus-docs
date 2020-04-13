@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Explore new Worlds</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    // imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
         Send your fleets out towards uncharted territory and find new worlds full of opportunities.
@@ -39,7 +39,7 @@ const features = [
     // imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Send out fleets towards you enemies to conquer their world extending your reach even further.
+        Send out fleets towards your oponents to conquer their world extending your reach even further.
       </>
     ),
   }
@@ -74,7 +74,7 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={classnames(
-                'button button--outline button--secondary button--lg',
+                'button button--outline button--primary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/overview/intro')}>
