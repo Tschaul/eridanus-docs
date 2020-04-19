@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="C:\Code\iridanus-docs\static\img\logo.png"
+   inkscape:export-xdpi="15.360002"
+   inkscape:export-ydpi="15.360002">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -32,11 +35,11 @@
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
-     inkscape:window-width="933"
-     inkscape:window-height="905"
-     inkscape:window-x="1639"
-     inkscape:window-y="140"
-     inkscape:window-maximized="0">
+     inkscape:window-width="2482"
+     inkscape:window-height="1411"
+     inkscape:window-x="69"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
        id="grid3713" />
@@ -49,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
