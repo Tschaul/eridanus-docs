@@ -1,6 +1,10 @@
 ---
 id: capture
-title: Capturing worlds
+title: Predominance and capturing worlds
 ---
 
-Capturing of worlds happens automatically if you manage to stay the only player present at a world for a timespan of more than two days. You can however place an order for your ships to wait until the world is captured before continuing with the rest of its orders. This is particularly helpful at the beginning of the game where you want to grab as many worlds as possible in a short period of time.
+Prodominance is a value that is given for each player at each world. Every player gets three predominance per ships and one predominance per population at the particular world. As long as there is population at the world that does not belong to the predominant player, such population is converted with a rate of four population per day.
+
+Caputuring takes place whenever a new owner manages to take the absolute majority of the population. In this case the control over the world is taken over immediately.
+
+Another way to capture a world is to transfer population to lost world. In this case the world is immediately caputered.
